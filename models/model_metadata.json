@@ -1,0 +1,61 @@
+{
+    "dataset_name": "UCI Student Performance (Mathematics: student-mat.csv)",
+    "training_timestamp": "2026-10-19T17:36:27.012147",
+    "random_state": 42,
+    "train_size": 316,
+    "test_size": 79,
+    "grade_boundaries": {
+        "Low Performance": [
+            0,
+            9
+        ],
+        "Medium Performance": [
+            10,
+            13
+        ],
+        "High Performance": [
+            14,
+            20
+        ]
+    },
+    "target_classes": [
+        "Low Performance",
+        "Medium Performance",
+        "High Performance"
+    ],
+    "feature_count": 32,
+    "primary_metrics": {
+        "test_accuracy": 0.8354430379746836,
+        "cv_accuracy_mean": 0.8479662698412698,
+        "cv_accuracy_std": 0.037413422565740234,
+        "precision_macro": 0.8387121212121212,
+        "recall_macro": 0.8485236985236986,
+        "f1_macro": 0.8427637721755369,
+        "precision_weighted": 0.8344965477560414,
+        "recall_weighted": 0.8354430379746836,
+        "f1_weighted": 0.834265858242031
+    },
+    "baseline_comparison": {
+        "Dummy Majority Baseline": {
+            "test_accuracy": 0.4177215189873418,
+            "f1_macro": 0.19642857142857142
+        },
+        "Logistic Regression Baseline": {
+            "test_accuracy": 0.8734177215189873,
+            "cv_accuracy_mean": 0.8290674603174603,
+            "f1_macro": 0.8755656108597285
+        },
+        "Random Forest (Primary)": {
+            "test_accuracy": 0.8354430379746836,
+            "cv_accuracy_mean": 0.8479662698412698,
+            "f1_macro": 0.8427637721755369
+        }
+    },
+    "top_5_features": [
+        "G2",
+        "G1",
+        "absences",
+        "failures",
+        "goout"
+    ]
+}

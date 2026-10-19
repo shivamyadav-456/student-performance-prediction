@@ -1,0 +1,24 @@
+# Python virtual environments & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+*.env
+*.log
+
+# Backups and temporary experiments
+backup_portugal/
+backup_indian/
+data/Daily_Lifestyle_and_Academic_Performance.csv
+
+# Streamlit local session state and secrets
+.streamlit/secrets.toml
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
